@@ -1,0 +1,37 @@
+body{
+    background-color: #292828;
+}
+
+video{
+    width: 95%;
+    height: 650px;
+    background-color: black;
+    margin:30px;
+    margin-top: 60px;
+    border: 2px rgb(118, 116, 116) solid;
+    /* position: absolute;
+    left: 50%;
+    top:45%;
+    transform: translate(-50% , -50%); */
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.recBtn{
+    padding: 10px;
+    background-color: blueviolet;
+    border: none;
+    border: 2px white solid;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+.recBtn:active{
+    transform: scale(0.9);
+}
