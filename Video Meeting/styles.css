@@ -1,0 +1,40 @@
+body {
+  background-color: #4b4a4a;
+  overflow-x: hidden;
+}
+
+.wrapper{
+  box-sizing: border-box;
+}
+
+.preview {
+  background-color: #7e7b7b;
+  border: 1px solid #ffff;
+  margin-top: 30px;
+  height: 250px;
+  width: 450px;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  top: 20px;
+  left: 170px;
+}
+
+button {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 8px 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.output {
+  background-color: #7e7b7b;
+  border: 1px solid #ffff;
+  margin-top: 40px;
+  height: 250px;
+  width: 450px;
+}
