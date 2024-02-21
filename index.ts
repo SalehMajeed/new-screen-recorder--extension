@@ -17,6 +17,7 @@ async function getMedia(): Promise<void> {
         "There was a problem while sharing screen or accessing audio"
       );
     }
+    playPauseStream();
   } catch (err: any) {
     console.error(err);
   }
