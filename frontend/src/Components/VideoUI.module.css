@@ -1,0 +1,37 @@
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3d3d3d;
+  padding: 20px;
+  height: 100vh;
+}
+
+.videoFrame {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 60%;
+  height: auto;
+  border: 1px solid #fff;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.startButton, .endButton, .download {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.startButton:hover, .endButton:hover, .download:hover {
+  background-color: #ddd;
+}
